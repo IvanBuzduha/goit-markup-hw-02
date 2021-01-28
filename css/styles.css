@@ -1,4 +1,93 @@
-.link:hover,
-.link:focus {
-  color: #2196f3;
+/* цвет заголовков  #212121; */
+/* основной цвет текста #757575; */
+/* белый  #FFFFFF; */
+/* акцент #2196F3; */
+/* цвет фона #E5E5E5; */
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --page-background-color: #e5e5e5;
+  --white-color: #ffffff;
+  --second-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+}
+body {
+  background-color: var(--pfge-background-color);
+  color: var(--primary-text-color);
+}
+.marker {
+  list-style: none;
+}
+/* site-nav */
+.logo-span {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.auth-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:focus,
+.footer .link:hover,
+.footer.link:focus,
+.filter .link:hover,
+.filter .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: var(--second-bg-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+/* booton */
+.booton {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* sections */
+.section-title {
+  color: var(--title-text-color);
+}
+.features-content {
+  color: var(--primary-text-color);
+}
+.features-title {
+  color: var(--title-text-color);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-content {
+  color: var(--primary-text-color);
+}
+.team {
+  background-color: var(--third-bg-color);
+}
+/* footer */
+.footer .logo {
+  color: var(--white-color);
+}
+.footer {
+  background-color: var(--second-bg-color);
+}
+.footer-nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  color: var(--white-color);
+}
+
+/* portfolio */
+.example-title {
+  color: var(--title-text-color);
+}
+.example-content {
+  color: var(--primary-text-color);
 }
