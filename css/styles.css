@@ -29,6 +29,7 @@ body {
 }
 /* site-nav */
 .logo {
+  color: var(--title-text-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -37,6 +38,7 @@ body {
 .logo-span {
   color: var(--accent-color);
 }
+
 .site-nav .link,
 .auth-nav .link {
   color: var(--title-text-color);
@@ -44,6 +46,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -127,6 +132,7 @@ body {
 }
 .address {
   color: var(--white-color);
+  font-style: normal;
 }
 
 /* portfolio */
